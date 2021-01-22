@@ -1,6 +1,8 @@
-# tag-input
+# Tag Input
 
-**Plugins**
+![Preview Tag input](Preview.png)
+
+**Plugins Used**
 
 VS Code
 - Live Sass Compiler
@@ -8,3 +10,4 @@ VS Code
 - SCSS Formatter
 - CSS Formatter
 - Prettier - Code formatter
+

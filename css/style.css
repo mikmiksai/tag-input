@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.row {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.view-tags {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.tags {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 4px 6px;
+  color: #555;
+  vertical-align: middle;
+  border-radius: 4px;
+  max-width: 100%;
+  line-height: 22px;
+  cursor: text;
+}
+
+.tags-label {
+  background-color: #5bc0de;
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+  margin: 5px 5px 5px 0px;
+}
+
+.tags-label.already-have {
+  background-color: #e05338;
+}
+
+.tags-label .remove {
+  margin-left: 5px;
+  cursor: pointer;
+  border: 0 none;
+  background-color: transparent;
+  outline: none;
+}
+
+.tags-label .remove::after {
+  content: "x";
+  color: white;
+  font-weight: 700;
+}
+
+.tags input {
+  border: 0 none;
+  outline: none;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 28px;
+}
+/*# sourceMappingURL=style.css.map */
