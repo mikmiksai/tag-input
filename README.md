@@ -11,3 +11,5 @@ VS Code
 - CSS Formatter
 - Prettier - Code formatter
 
+[Demo](https://tag-input.vercel.app/)
+
