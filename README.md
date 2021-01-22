@@ -1,6 +1,6 @@
 # Tag Input
 
-![Preview Tag input](Preview.png)
+![Preview Tag input](Preview.PNG)
 
 **Plugins Used**
 
